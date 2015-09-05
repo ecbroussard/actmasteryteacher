@@ -62,14 +62,6 @@ ul.lessonlist:hover {
 	cursor: pointer;
 }
 
-li.ui-state-active {
-	list-style-image: url('../images/arrowdown.png');
-}
-
-li.ui-state-active:focus {
-	outline: none;
-}
-
 ul.lessonlist > li {
 	margin-top: 15px;
 }
