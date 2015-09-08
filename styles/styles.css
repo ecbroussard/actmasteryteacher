@@ -7,9 +7,24 @@ body {
 header {
 	width: 1000px;
 	height: 75px;
-	background-color: #796691;
 	margin: auto;
 	padding-bottom: 5px;
+}
+
+header.english {
+	background-color: #796691;
+}
+
+header.math {
+	background-color: #ae4546;
+}
+
+header.reading {
+	background-color: #4f769c;
+}
+
+header.science {
+	background-color: #64b388;
 }
 
 header img {
@@ -46,16 +61,37 @@ nav ul {
 	list-style-type: none;
 }
 
-nav ul a {
+nav ul.sublist a {
 	text-decoration: none;
 	color: #a48ac0;
+}
+
+
+li.english a {
+	color: #a48ac0;
+	text-decoration: none;
+}
+
+li.math a {
+	color: #ed7f8d;
+	text-decoration: none;
+}
+
+li.reading a {
+	color: #699dca;
+	text-decoration: none;
+}
+
+li.science a {
+	color: #2bb673;
+	text-decoration: none;
 }
 
 ul.lessonlist {
 	font-weight: bold;
 	font-size: 120%;
 	line-height: 150%;
-	list-style-image: url('../images/arrowside.png');	
+	list-style-image: url('../images/arrowsidepurple.png');	
 }
 
 ul.lessonlist:hover {
@@ -83,26 +119,25 @@ ul.sublist a:hover {
 	color: #796691;
 }
 
-#English {
-	color: #a48ac0;
-}
-
-#Math {
-	color: #ed7f8d;
-}
-
-#Reading {
-	color: #699dca;
-}
-
-#Science {
-	color: #2bb673
-}
-
 h1 {
-	color: #796691;
 	border-bottom: 4px solid silver;
 	padding-bottom: 10px;
+}
+
+h1.english {
+	color: #796691;
+}
+
+h1.math {
+	color: #ae4546;
+}
+
+h1.reading {
+	color: #4f769c;
+}
+
+h1.science {
+	color: #64b388;
 }
 
 #h1title img {
